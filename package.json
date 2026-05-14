@@ -1,0 +1,32 @@
+{
+  "name": "ecommerce-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript UI automation project for an e-commerce demo storefront",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "qa-automation",
+    "e2e-testing",
+    "ui-testing",
+    "ecommerce",
+    "page-object-model"
+  ],
+  "author": "Camilla Casti",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.6.0",
+    "dotenv": "^17.4.2",
+    "prettier": "^3.8.3"
+  }
+}

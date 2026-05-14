@@ -2,7 +2,6 @@
 
 ![Playwright Tests](https://github.com/camillacasti0-oss/ecommerce-test-automation/actions/workflows/playwright.yml/badge.svg)
 
-
 Automated UI test project for the public Sauce Demo Shopify storefront:
 
 https://sauce-demo.myshopify.com
